@@ -102,7 +102,7 @@ export const Home: React.FC<HomeProps> = ({}) => {
                   <div>
                     <div className="font-bold">Retrait</div>
                     <div className="font-normal text-gray-400">
-                      CCM PARIS EUROP
+                      SOCIETE GENERALE
                     </div>
                   </div>
                   <div className="w-24">
@@ -120,9 +120,9 @@ export const Home: React.FC<HomeProps> = ({}) => {
                     />
                   </div>
                   <div>
-                    <div className="font-bold">Retrait</div>
+                    <div className="font-bold">Achat</div>
                     <div className="font-normal text-gray-400">
-                      CCM PARIS EUROP
+                      SOCIETE GENERALE
                     </div>
                   </div>
                   <div className="w-24">
@@ -139,31 +139,8 @@ export const Home: React.FC<HomeProps> = ({}) => {
                       className="text-green-500 w-8"
                     />
                   </div>
-                  <div>
-                    <div className="font-bold">Retrait</div>
-                    <div className="font-normal text-gray-400">
-                      CCM PARIS EUROP
-                    </div>
-                  </div>
-                  <div className="w-24">
-                    <div className="font-bold">-500,00 €</div>
-                    <div className="font-normal text-gray-400">
-                      22 Novembre 2022
-                    </div>
-                  </div>
-                </div>
-                <div className="text-xs flex w-full justify-between align-middle bg-white rounded-2xl shadow-lg p-2 items-center">
-                  <div className="py-4">
-                    <FontAwesomeIcon
-                      icon={faCheck}
-                      className="text-green-500 w-8"
-                    />
-                  </div>
-                  <div>
-                    <div className="font-bold">Retrait</div>
-                    <div className="font-normal text-gray-400">
-                      CCM PARIS EUROP
-                    </div>
+                  <div className="w-1/2">
+                    <div className="font-bold">Rechargement pars carte bancaire</div>
                   </div>
                   <div className="w-24">
                     <div className="font-bold">-500,00 €</div>
